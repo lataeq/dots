@@ -20,8 +20,8 @@ bash script to auto-install my i3 rice. made for kali linux in qemu/virt-manager
 ```bash
 git clone https://github.com/lataeq/dots.git
 cd dots
-chmod +x dots.sh
-./dots.sh
+sudo chmod +x dots.sh
+sudo ./dots.sh
 ```
 
 ## notes
