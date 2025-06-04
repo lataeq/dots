@@ -1,0 +1,30 @@
+[global_config]
+  handle_size = 0
+  always_on_top = True
+  inactive_color_offset = 1.0
+[keybindings]
+[profiles]
+  [[default]]
+    icon_bell = False
+    background_darkness = 0.7
+    background_type = transparent
+    cursor_shape = underline
+    cursor_fg_color = "#000000"
+    cursor_bg_color = "#ec0101"
+    cursor_color_default = False
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    palette = "#1f2229:#d41919:#5ebdab:#fea44c:#367bf0:#9755b3:#49aee6:#e6e6e6:#198388:#ec0101:#47d4b9:#ff8a18:#277fff:#962ac3:#05a1f7:#ffffff"
+    bold_is_bright = True
+    title_receive_bg_color = "#1c71d8"
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+      size = 950, 500
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]
